@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE14B4F81B70C60000BF2AA5 /* Cobalt.m in Sources */ = {isa = PBXBuildFile; fileRef = BE14B4E31B70C60000BF2AA5 /* Cobalt.m */; };
+		BE14B4F91B70C60000BF2AA5 /* CobaltViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE14B4E61B70C60000BF2AA5 /* CobaltViewController.m */; };
+		BE14B4FA1B70C60000BF2AA5 /* CobaltViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE14B4E71B70C60000BF2AA5 /* CobaltViewController.xib */; };
+		BE14B4FB1B70C60000BF2AA5 /* FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = BE14B4E91B70C60000BF2AA5 /* FontAwesome.m */; };
+		BE14B4FC1B70C60000BF2AA5 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE14B4EA1B70C60000BF2AA5 /* FontAwesome.ttf */; };
+		BE14B4FD1B70C60000BF2AA5 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = BE14B4EC1B70C60000BF2AA5 /* iToast.m */; };
+		BE14B4FE1B70C60000BF2AA5 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE14B4EF1B70C60000BF2AA5 /* ImageManager.m */; };
+		BE14B4FF1B70C60000BF2AA5 /* CobaltAbstractPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE14B4F21B70C60000BF2AA5 /* CobaltAbstractPlugin.m */; };
+		BE14B5001B70C60000BF2AA5 /* CobaltPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE14B4F41B70C60000BF2AA5 /* CobaltPluginManager.m */; };
+		BE14B5011B70C60000BF2AA5 /* CobaltToast.m in Sources */ = {isa = PBXBuildFile; fileRef = BE14B4F71B70C60000BF2AA5 /* CobaltToast.m */; };
 		BE1B7C191AE53BBA0095B390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B7C181AE53BBA0095B390 /* main.m */; };
 		BE1B7C1C1AE53BBA0095B390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B7C1B1AE53BBA0095B390 /* AppDelegate.m */; };
 		BE1B7C1F1AE53BBA0095B390 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B7C1E1AE53BBA0095B390 /* ViewController.m */; };
@@ -16,16 +26,6 @@
 		BE1B7C331AE53BBA0095B390 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B7C321AE53BBA0095B390 /* HelloWorldTests.m */; };
 		BE1B7C3F1AE53D4F0095B390 /* common in Resources */ = {isa = PBXBuildFile; fileRef = BE1B7C3D1AE53D4F0095B390 /* common */; };
 		BE1B7C401AE53D4F0095B390 /* platform in Resources */ = {isa = PBXBuildFile; fileRef = BE1B7C3E1AE53D4F0095B390 /* platform */; };
-		F0DACCA41AFE61AF00DBE06C /* Cobalt.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DACC8F1AFE61AF00DBE06C /* Cobalt.m */; };
-		F0DACCA51AFE61AF00DBE06C /* CobaltViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DACC921AFE61AF00DBE06C /* CobaltViewController.m */; };
-		F0DACCA61AFE61AF00DBE06C /* CobaltViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0DACC931AFE61AF00DBE06C /* CobaltViewController.xib */; };
-		F0DACCA71AFE61AF00DBE06C /* FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DACC951AFE61AF00DBE06C /* FontAwesome.m */; };
-		F0DACCA81AFE61AF00DBE06C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0DACC961AFE61AF00DBE06C /* FontAwesome.ttf */; };
-		F0DACCA91AFE61AF00DBE06C /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DACC981AFE61AF00DBE06C /* iToast.m */; };
-		F0DACCAA1AFE61AF00DBE06C /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DACC9B1AFE61AF00DBE06C /* ImageManager.m */; };
-		F0DACCAB1AFE61AF00DBE06C /* CobaltAbstractPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DACC9E1AFE61AF00DBE06C /* CobaltAbstractPlugin.m */; };
-		F0DACCAC1AFE61AF00DBE06C /* CobaltPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DACCA01AFE61AF00DBE06C /* CobaltPluginManager.m */; };
-		F0DACCAD1AFE61AF00DBE06C /* CobaltToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DACCA31AFE61AF00DBE06C /* CobaltToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE14B4E11B70C60000BF2AA5 /* Cobalt-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cobalt-Prefix.pch"; sourceTree = "<group>"; };
+		BE14B4E21B70C60000BF2AA5 /* Cobalt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cobalt.h; sourceTree = "<group>"; };
+		BE14B4E31B70C60000BF2AA5 /* Cobalt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cobalt.m; sourceTree = "<group>"; };
+		BE14B4E51B70C60000BF2AA5 /* CobaltViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltViewController.h; sourceTree = "<group>"; };
+		BE14B4E61B70C60000BF2AA5 /* CobaltViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltViewController.m; sourceTree = "<group>"; };
+		BE14B4E71B70C60000BF2AA5 /* CobaltViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CobaltViewController.xib; sourceTree = "<group>"; };
+		BE14B4E81B70C60000BF2AA5 /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
+		BE14B4E91B70C60000BF2AA5 /* FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontAwesome.m; sourceTree = "<group>"; };
+		BE14B4EA1B70C60000BF2AA5 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		BE14B4EB1B70C60000BF2AA5 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		BE14B4EC1B70C60000BF2AA5 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		BE14B4EE1B70C60000BF2AA5 /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		BE14B4EF1B70C60000BF2AA5 /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		BE14B4F11B70C60000BF2AA5 /* CobaltAbstractPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltAbstractPlugin.h; sourceTree = "<group>"; };
+		BE14B4F21B70C60000BF2AA5 /* CobaltAbstractPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltAbstractPlugin.m; sourceTree = "<group>"; };
+		BE14B4F31B70C60000BF2AA5 /* CobaltPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltPluginManager.h; sourceTree = "<group>"; };
+		BE14B4F41B70C60000BF2AA5 /* CobaltPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltPluginManager.m; sourceTree = "<group>"; };
+		BE14B4F61B70C60000BF2AA5 /* CobaltToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltToast.h; sourceTree = "<group>"; };
+		BE14B4F71B70C60000BF2AA5 /* CobaltToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltToast.m; sourceTree = "<group>"; };
 		BE1B7C131AE53BBA0095B390 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1B7C171AE53BBA0095B390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE1B7C181AE53BBA0095B390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,25 +74,6 @@
 		BE1B7C3D1AE53D4F0095B390 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = www/common; sourceTree = "<group>"; };
 		BE1B7C3E1AE53D4F0095B390 /* platform */ = {isa = PBXFileReference; lastKnownFileType = folder; name = platform; path = www/platform; sourceTree = "<group>"; };
 		BE1B7C691AE53F7C0095B390 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
-		F0DACC8D1AFE61AF00DBE06C /* Cobalt-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cobalt-Prefix.pch"; sourceTree = "<group>"; };
-		F0DACC8E1AFE61AF00DBE06C /* Cobalt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cobalt.h; sourceTree = "<group>"; };
-		F0DACC8F1AFE61AF00DBE06C /* Cobalt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cobalt.m; sourceTree = "<group>"; };
-		F0DACC911AFE61AF00DBE06C /* CobaltViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltViewController.h; sourceTree = "<group>"; };
-		F0DACC921AFE61AF00DBE06C /* CobaltViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltViewController.m; sourceTree = "<group>"; };
-		F0DACC931AFE61AF00DBE06C /* CobaltViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CobaltViewController.xib; sourceTree = "<group>"; };
-		F0DACC941AFE61AF00DBE06C /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
-		F0DACC951AFE61AF00DBE06C /* FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontAwesome.m; sourceTree = "<group>"; };
-		F0DACC961AFE61AF00DBE06C /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
-		F0DACC971AFE61AF00DBE06C /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
-		F0DACC981AFE61AF00DBE06C /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
-		F0DACC9A1AFE61AF00DBE06C /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
-		F0DACC9B1AFE61AF00DBE06C /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
-		F0DACC9D1AFE61AF00DBE06C /* CobaltAbstractPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltAbstractPlugin.h; sourceTree = "<group>"; };
-		F0DACC9E1AFE61AF00DBE06C /* CobaltAbstractPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltAbstractPlugin.m; sourceTree = "<group>"; };
-		F0DACC9F1AFE61AF00DBE06C /* CobaltPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltPluginManager.h; sourceTree = "<group>"; };
-		F0DACCA01AFE61AF00DBE06C /* CobaltPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltPluginManager.m; sourceTree = "<group>"; };
-		F0DACCA21AFE61AF00DBE06C /* CobaltToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CobaltToast.h; sourceTree = "<group>"; };
-		F0DACCA31AFE61AF00DBE06C /* CobaltToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CobaltToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE14B4E01B70C60000BF2AA5 /* Cobalt */ = {
+			isa = PBXGroup;
+			children = (
+				BE14B4E11B70C60000BF2AA5 /* Cobalt-Prefix.pch */,
+				BE14B4E21B70C60000BF2AA5 /* Cobalt.h */,
+				BE14B4E31B70C60000BF2AA5 /* Cobalt.m */,
+				BE14B4E41B70C60000BF2AA5 /* Controllers */,
+				BE14B4E81B70C60000BF2AA5 /* FontAwesome.h */,
+				BE14B4E91B70C60000BF2AA5 /* FontAwesome.m */,
+				BE14B4EA1B70C60000BF2AA5 /* FontAwesome.ttf */,
+				BE14B4EB1B70C60000BF2AA5 /* iToast.h */,
+				BE14B4EC1B70C60000BF2AA5 /* iToast.m */,
+				BE14B4ED1B70C60000BF2AA5 /* Model */,
+				BE14B4F01B70C60000BF2AA5 /* Plugin */,
+				BE14B4F51B70C60000BF2AA5 /* Views */,
+			);
+			name = Cobalt;
+			path = Cobalt/Cobalt/Cobalt;
+			sourceTree = "<group>";
+		};
+		BE14B4E41B70C60000BF2AA5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE14B4E51B70C60000BF2AA5 /* CobaltViewController.h */,
+				BE14B4E61B70C60000BF2AA5 /* CobaltViewController.m */,
+				BE14B4E71B70C60000BF2AA5 /* CobaltViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BE14B4ED1B70C60000BF2AA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE14B4EE1B70C60000BF2AA5 /* ImageManager.h */,
+				BE14B4EF1B70C60000BF2AA5 /* ImageManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE14B4F01B70C60000BF2AA5 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				BE14B4F11B70C60000BF2AA5 /* CobaltAbstractPlugin.h */,
+				BE14B4F21B70C60000BF2AA5 /* CobaltAbstractPlugin.m */,
+				BE14B4F31B70C60000BF2AA5 /* CobaltPluginManager.h */,
+				BE14B4F41B70C60000BF2AA5 /* CobaltPluginManager.m */,
+			);
+			path = Plugin;
+			sourceTree = "<group>";
+		};
+		BE14B4F51B70C60000BF2AA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE14B4F61B70C60000BF2AA5 /* CobaltToast.h */,
+				BE14B4F71B70C60000BF2AA5 /* CobaltToast.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BE1B7C0A1AE53BBA0095B390 = {
 			isa = PBXGroup;
 			children = (
@@ -193,67 +252,9 @@
 		BE1B7C461AE53DE60095B390 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F0DACC8C1AFE61AF00DBE06C /* Cobalt */,
+				BE14B4E01B70C60000BF2AA5 /* Cobalt */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F0DACC8C1AFE61AF00DBE06C /* Cobalt */ = {
-			isa = PBXGroup;
-			children = (
-				F0DACC8D1AFE61AF00DBE06C /* Cobalt-Prefix.pch */,
-				F0DACC8E1AFE61AF00DBE06C /* Cobalt.h */,
-				F0DACC8F1AFE61AF00DBE06C /* Cobalt.m */,
-				F0DACC901AFE61AF00DBE06C /* Controllers */,
-				F0DACC941AFE61AF00DBE06C /* FontAwesome.h */,
-				F0DACC951AFE61AF00DBE06C /* FontAwesome.m */,
-				F0DACC961AFE61AF00DBE06C /* FontAwesome.ttf */,
-				F0DACC971AFE61AF00DBE06C /* iToast.h */,
-				F0DACC981AFE61AF00DBE06C /* iToast.m */,
-				F0DACC991AFE61AF00DBE06C /* Model */,
-				F0DACC9C1AFE61AF00DBE06C /* Plugin */,
-				F0DACCA11AFE61AF00DBE06C /* Views */,
-			);
-			path = Cobalt;
-			sourceTree = "<group>";
-		};
-		F0DACC901AFE61AF00DBE06C /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				F0DACC911AFE61AF00DBE06C /* CobaltViewController.h */,
-				F0DACC921AFE61AF00DBE06C /* CobaltViewController.m */,
-				F0DACC931AFE61AF00DBE06C /* CobaltViewController.xib */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		F0DACC991AFE61AF00DBE06C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				F0DACC9A1AFE61AF00DBE06C /* ImageManager.h */,
-				F0DACC9B1AFE61AF00DBE06C /* ImageManager.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F0DACC9C1AFE61AF00DBE06C /* Plugin */ = {
-			isa = PBXGroup;
-			children = (
-				F0DACC9D1AFE61AF00DBE06C /* CobaltAbstractPlugin.h */,
-				F0DACC9E1AFE61AF00DBE06C /* CobaltAbstractPlugin.m */,
-				F0DACC9F1AFE61AF00DBE06C /* CobaltPluginManager.h */,
-				F0DACCA01AFE61AF00DBE06C /* CobaltPluginManager.m */,
-			);
-			path = Plugin;
-			sourceTree = "<group>";
-		};
-		F0DACCA11AFE61AF00DBE06C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				F0DACCA21AFE61AF00DBE06C /* CobaltToast.h */,
-				F0DACCA31AFE61AF00DBE06C /* CobaltToast.m */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,10 +338,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE1B7C221AE53BBA0095B390 /* Main.storyboard in Resources */,
-				F0DACCA81AFE61AF00DBE06C /* FontAwesome.ttf in Resources */,
+				BE14B4FC1B70C60000BF2AA5 /* FontAwesome.ttf in Resources */,
 				BE1B7C271AE53BBA0095B390 /* LaunchScreen.xib in Resources */,
 				BE1B7C401AE53D4F0095B390 /* platform in Resources */,
-				F0DACCA61AFE61AF00DBE06C /* CobaltViewController.xib in Resources */,
+				BE14B4FA1B70C60000BF2AA5 /* CobaltViewController.xib in Resources */,
 				BE1B7C241AE53BBA0095B390 /* Images.xcassets in Resources */,
 				BE1B7C3F1AE53D4F0095B390 /* common in Resources */,
 			);
@@ -360,17 +361,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0DACCA71AFE61AF00DBE06C /* FontAwesome.m in Sources */,
-				F0DACCA41AFE61AF00DBE06C /* Cobalt.m in Sources */,
-				F0DACCA91AFE61AF00DBE06C /* iToast.m in Sources */,
-				F0DACCAC1AFE61AF00DBE06C /* CobaltPluginManager.m in Sources */,
-				F0DACCA51AFE61AF00DBE06C /* CobaltViewController.m in Sources */,
+				BE14B4FB1B70C60000BF2AA5 /* FontAwesome.m in Sources */,
+				BE14B4F81B70C60000BF2AA5 /* Cobalt.m in Sources */,
+				BE14B4FD1B70C60000BF2AA5 /* iToast.m in Sources */,
+				BE14B5001B70C60000BF2AA5 /* CobaltPluginManager.m in Sources */,
+				BE14B4F91B70C60000BF2AA5 /* CobaltViewController.m in Sources */,
 				BE1B7C1F1AE53BBA0095B390 /* ViewController.m in Sources */,
 				BE1B7C1C1AE53BBA0095B390 /* AppDelegate.m in Sources */,
-				F0DACCAB1AFE61AF00DBE06C /* CobaltAbstractPlugin.m in Sources */,
+				BE14B4FF1B70C60000BF2AA5 /* CobaltAbstractPlugin.m in Sources */,
 				BE1B7C191AE53BBA0095B390 /* main.m in Sources */,
-				F0DACCAD1AFE61AF00DBE06C /* CobaltToast.m in Sources */,
-				F0DACCAA1AFE61AF00DBE06C /* ImageManager.m in Sources */,
+				BE14B5011B70C60000BF2AA5 /* CobaltToast.m in Sources */,
+				BE14B4FE1B70C60000BF2AA5 /* ImageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
