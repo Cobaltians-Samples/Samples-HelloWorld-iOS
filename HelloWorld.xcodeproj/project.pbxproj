@@ -45,7 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BE1ABEFF1B71FEE00070657C /* Cobalt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Cobalt.framework; path = "/Users/sebastien/Library/Developer/Xcode/DerivedData/HelloWorld-edgxhwxsdehkaqgnsxcbdbvjockd/Build/Products/Debug-iphoneos/Cobalt.framework"; sourceTree = "<absolute>"; };
+		BE1ABEFF1B71FEE00070657C /* Cobalt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cobalt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1B7C131AE53BBA0095B390 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1B7C171AE53BBA0095B390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE1B7C181AE53BBA0095B390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
