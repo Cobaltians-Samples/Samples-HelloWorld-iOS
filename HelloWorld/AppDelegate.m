@@ -8,8 +8,8 @@
 
 #import "AppDelegate.h"
 
-#import "Cobalt.h"
-#import "CobaltViewController.h"
+#import <Cobalt/Cobalt.h>
+#import <Cobalt/CobaltViewController.h>
 
 @interface AppDelegate ()
 

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CobaltViewController.h"
+
+#import <Cobalt/CobaltViewController.h>
 
 @interface ViewController : CobaltViewController <CobaltDelegate>
 
