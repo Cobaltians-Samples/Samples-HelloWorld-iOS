@@ -9,4 +9,4 @@
 [submodule "Cobalt"]
 	path = Cobalt
 	url = https://github.com/cobaltians/Cobalt-iOS-Framework
-	branch = develop
+	branch = dev-nativeBars
