@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE1ABF001B71FEE00070657C /* Cobalt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1ABEFF1B71FEE00070657C /* Cobalt.framework */; };
-		BE1ABF011B71FEE00070657C /* Cobalt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE1ABEFF1B71FEE00070657C /* Cobalt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE1B7C191AE53BBA0095B390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B7C181AE53BBA0095B390 /* main.m */; };
 		BE1B7C1C1AE53BBA0095B390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B7C1B1AE53BBA0095B390 /* AppDelegate.m */; };
 		BE1B7C1F1AE53BBA0095B390 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B7C1E1AE53BBA0095B390 /* ViewController.m */; };
@@ -18,6 +16,9 @@
 		BE1B7C331AE53BBA0095B390 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B7C321AE53BBA0095B390 /* HelloWorldTests.m */; };
 		BE1B7C3F1AE53D4F0095B390 /* common in Resources */ = {isa = PBXBuildFile; fileRef = BE1B7C3D1AE53D4F0095B390 /* common */; };
 		BE1B7C401AE53D4F0095B390 /* platform in Resources */ = {isa = PBXBuildFile; fileRef = BE1B7C3E1AE53D4F0095B390 /* platform */; };
+		BE7F2C821C47FC620073CEA0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE7F2C7F1C47FC620073CEA0 /* LICENSE */; };
+		BE7F2C831C47FC740073CEA0 /* Cobalt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7F2C7E1C47FC620073CEA0 /* Cobalt.framework */; };
+		BE7F2C841C47FC760073CEA0 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE7F2C7D1C47FC620073CEA0 /* Cobalt.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BE1ABF011B71FEE00070657C /* Cobalt.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,7 +45,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BE1ABEFF1B71FEE00070657C /* Cobalt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cobalt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1B7C131AE53BBA0095B390 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1B7C171AE53BBA0095B390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE1B7C181AE53BBA0095B390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +61,9 @@
 		BE1B7C3D1AE53D4F0095B390 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = www/common; sourceTree = "<group>"; };
 		BE1B7C3E1AE53D4F0095B390 /* platform */ = {isa = PBXFileReference; lastKnownFileType = folder; name = platform; path = www/platform; sourceTree = "<group>"; };
 		BE1B7C691AE53F7C0095B390 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		BE7F2C7D1C47FC620073CEA0 /* Cobalt.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Cobalt.bundle; sourceTree = "<group>"; };
+		BE7F2C7E1C47FC620073CEA0 /* Cobalt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cobalt.framework; sourceTree = "<group>"; };
+		BE7F2C7F1C47FC620073CEA0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE1ABF001B71FEE00070657C /* Cobalt.framework in Frameworks */,
+				BE7F2C831C47FC740073CEA0 /* Cobalt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,9 +184,19 @@
 		BE1B7C461AE53DE60095B390 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BE1ABEFF1B71FEE00070657C /* Cobalt.framework */,
+				BE7F2C7C1C47FC620073CEA0 /* Cobalt */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE7F2C7C1C47FC620073CEA0 /* Cobalt */ = {
+			isa = PBXGroup;
+			children = (
+				BE7F2C7D1C47FC620073CEA0 /* Cobalt.bundle */,
+				BE7F2C7E1C47FC620073CEA0 /* Cobalt.framework */,
+				BE7F2C7F1C47FC620073CEA0 /* LICENSE */,
+			);
+			path = Cobalt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +283,10 @@
 				BE1B7C221AE53BBA0095B390 /* Main.storyboard in Resources */,
 				BE1B7C271AE53BBA0095B390 /* LaunchScreen.xib in Resources */,
 				BE1B7C401AE53D4F0095B390 /* platform in Resources */,
+				BE7F2C821C47FC620073CEA0 /* LICENSE in Resources */,
 				BE1B7C241AE53BBA0095B390 /* Images.xcassets in Resources */,
 				BE1B7C3F1AE53D4F0095B390 /* common in Resources */,
+				BE7F2C841C47FC760073CEA0 /* Cobalt.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +437,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/HelloWorld-edgxhwxsdehkaqgnsxcbdbvjockd/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/Cobalt",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
@@ -441,6 +456,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/HelloWorld-edgxhwxsdehkaqgnsxcbdbvjockd/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/Cobalt",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
