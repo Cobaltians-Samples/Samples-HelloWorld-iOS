@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "599F870796067990351BF0649CA1F1369F18DE96",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "599F870796067990351BF0649CA1F1369F18DE96" : 0,
+    "5044BAC1DAB61BDAABB847D120641970A8A7B54E" : 0,
+    "7453ABE70C99836A01F5BB164363F4C90D3354C5" : 0,
+    "CB13A8899B5BF6E77EFBB59659A7339D8E2E33CA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3EEA08C5-3481-4B41-A7BD-7C8E9C7BB290",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "599F870796067990351BF0649CA1F1369F18DE96" : "Samples-HelloWorld-iOS\/",
+    "5044BAC1DAB61BDAABB847D120641970A8A7B54E" : "Samples-HelloWorld-iOS\/Cobalt\/",
+    "7453ABE70C99836A01F5BB164363F4C90D3354C5" : "Samples-HelloWorld-iOS\/www\/platform\/",
+    "CB13A8899B5BF6E77EFBB59659A7339D8E2E33CA" : "Samples-HelloWorld-iOS\/www\/common\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloWorld",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HelloWorld.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cobaltians\/Cobalt-iOS-Framework",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5044BAC1DAB61BDAABB847D120641970A8A7B54E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Cobaltians-Samples\/Samples-HelloWorld-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "599F870796067990351BF0649CA1F1369F18DE96"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/cobaltians\/Cobalt-Web-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7453ABE70C99836A01F5BB164363F4C90D3354C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/Cobaltians-Samples\/Samples-HelloWorld-Web.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB13A8899B5BF6E77EFBB59659A7339D8E2E33CA"
+    }
+  ]
+}
