@@ -13,7 +13,6 @@
 		71BD351A1DAE62DB0035D0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BD35191DAE62DB0035D0AE /* Assets.xcassets */; };
 		71BD351D1DAE62DB0035D0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BD351B1DAE62DB0035D0AE /* LaunchScreen.storyboard */; };
 		71BD352E1DAE63F30035D0AE /* common in Resources */ = {isa = PBXBuildFile; fileRef = 71BD352C1DAE63F30035D0AE /* common */; };
-		71BD352F1DAE63F30035D0AE /* platform in Resources */ = {isa = PBXBuildFile; fileRef = 71BD352D1DAE63F30035D0AE /* platform */; };
 		BE1D224D1DAE68380001D232 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE1D224A1DAE68380001D232 /* Cobalt.bundle */; };
 		BE1D224E1DAE68380001D232 /* Cobalt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1D224B1DAE68380001D232 /* Cobalt.framework */; };
 		BE1D224F1DAE68380001D232 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE1D224C1DAE68380001D232 /* LICENSE */; };
@@ -28,7 +27,6 @@
 		71BD351C1DAE62DB0035D0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71BD351E1DAE62DB0035D0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71BD352C1DAE63F30035D0AE /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = www/common; sourceTree = "<group>"; };
-		71BD352D1DAE63F30035D0AE /* platform */ = {isa = PBXFileReference; lastKnownFileType = folder; name = platform; path = www/platform; sourceTree = "<group>"; };
 		BE1D224A1DAE68380001D232 /* Cobalt.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Cobalt.bundle; sourceTree = "<group>"; };
 		BE1D224B1DAE68380001D232 /* Cobalt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cobalt.framework; sourceTree = "<group>"; };
 		BE1D224C1DAE68380001D232 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				71BD352C1DAE63F30035D0AE /* common */,
-				71BD352D1DAE63F30035D0AE /* platform */,
 			);
 			name = www;
 			sourceTree = "<group>";
@@ -162,7 +159,6 @@
 				BE1D224F1DAE68380001D232 /* LICENSE in Resources */,
 				71BD35181DAE62DB0035D0AE /* Main.storyboard in Resources */,
 				BE1D224D1DAE68380001D232 /* Cobalt.bundle in Resources */,
-				71BD352F1DAE63F30035D0AE /* platform in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
