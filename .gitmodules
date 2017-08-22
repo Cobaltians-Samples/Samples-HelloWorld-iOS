@@ -2,10 +2,6 @@
 	path = www/common
 	url = git://github.com/Cobaltians-Samples/Samples-HelloWorld-Web.git
 	branch = 0.4.1
-[submodule "www/platform"]
-	path = www/platform
-	url = git://github.com/cobaltians/Cobalt-Web-iOS.git
-	branch = 0.4.1
 [submodule "Cobalt"]
 	path = Cobalt
 	url = https://github.com/cobaltians/Cobalt-iOS-Framework
