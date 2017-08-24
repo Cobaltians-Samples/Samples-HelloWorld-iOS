@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self setDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,6 +38,19 @@
 - (BOOL)onUnhandledEvent:(NSString *)event
                 withData:(NSDictionary *)data
              andCallback:(NSString *)callback {
+    if ([@"togglePTR" isEqualToString:event]
+        && data != nil) {
+        id value = [data objectForKey:@"value"];
+        if (value != nil
+            && [value isKindOfClass:[NSNumber class]]) {
+            NSLog(@"togglePTR: %li", (long)[value integerValue]);
+            
+            self.isPullToRefreshEnabled = [value boolValue];
+        }
+        
+        return YES;
+    }
+    
     return NO;
 }
 
