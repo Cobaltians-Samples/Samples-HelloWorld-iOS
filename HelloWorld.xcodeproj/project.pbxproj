@@ -12,8 +12,9 @@
 		71BD35181DAE62DB0035D0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BD35161DAE62DB0035D0AE /* Main.storyboard */; };
 		71BD351A1DAE62DB0035D0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BD35191DAE62DB0035D0AE /* Assets.xcassets */; };
 		71BD351D1DAE62DB0035D0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BD351B1DAE62DB0035D0AE /* LaunchScreen.storyboard */; };
-		71BD352E1DAE63F30035D0AE /* common in Resources */ = {isa = PBXBuildFile; fileRef = 71BD352C1DAE63F30035D0AE /* common */; };
 		F04CACEB2271DC2E000EEB69 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F04CACE82271DC1F000EEB69 /* libCobalt.a */; };
+		F04CAD072271E02F000EEB69 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F04CACEA2271DC1F000EEB69 /* Cobalt.bundle */; };
+		F04CAD0B2271E0D7000EEB69 /* common in Resources */ = {isa = PBXBuildFile; fileRef = F04CAD0A2271E0D6000EEB69 /* common */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,13 @@
 			remoteGlobalIDString = BEFF884A1C4541FD0063AA18;
 			remoteInfo = CobaltResources;
 		};
+		F04CAD082271E06D000EEB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04CACE12271DC1F000EEB69 /* Cobalt.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEFF882F1C3ED3BC0063AA18;
+			remoteInfo = Framework;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +49,8 @@
 		71BD35191DAE62DB0035D0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71BD351C1DAE62DB0035D0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71BD351E1DAE62DB0035D0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71BD352C1DAE63F30035D0AE /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = www/common; sourceTree = "<group>"; };
 		F04CACE12271DC1F000EEB69 /* Cobalt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cobalt.xcodeproj; path = "Cobalt-iOS/Cobalt.xcodeproj"; sourceTree = "<group>"; };
+		F04CAD0A2271E0D6000EEB69 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = www/common; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +99,7 @@
 		71BD352B1DAE63E40035D0AE /* www */ = {
 			isa = PBXGroup;
 			children = (
-				71BD352C1DAE63F30035D0AE /* common */,
+				F04CAD0A2271E0D6000EEB69 /* common */,
 			);
 			name = www;
 			sourceTree = "<group>";
@@ -127,6 +135,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F04CAD092271E06D000EEB69 /* PBXTargetDependency */,
 			);
 			name = HelloWorld;
 			productName = HelloWorld;
@@ -198,10 +207,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04CAD0B2271E0D7000EEB69 /* common in Resources */,
 				71BD351D1DAE62DB0035D0AE /* LaunchScreen.storyboard in Resources */,
-				71BD352E1DAE63F30035D0AE /* common in Resources */,
 				71BD351A1DAE62DB0035D0AE /* Assets.xcassets in Resources */,
 				71BD35181DAE62DB0035D0AE /* Main.storyboard in Resources */,
+				F04CAD072271E02F000EEB69 /* Cobalt.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +228,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F04CAD092271E06D000EEB69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Framework;
+			targetProxy = F04CAD082271E06D000EEB69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		71BD35161DAE62DB0035D0AE /* Main.storyboard */ = {
