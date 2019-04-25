@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="64X-9m-SfS"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="d4I-eZ-BQ4"/>
                                 </connections>
                             </webView>
                         </subviews>
@@ -38,7 +38,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="zFg-2K-btH" id="g5A-L6-XiG"/>
+                        <outlet property="webView" destination="zFg-2K-btH" id="lTl-PF-qi2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
