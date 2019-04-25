@@ -14,7 +14,6 @@ class ViewController: CobaltViewController {
         super.init(coder: coder)
         
         //On set le resourcePath de cobalt
-        Cobalt.setResourcePath((Bundle.main.resourcePath! + "/common/"))
         initWithPage("index.html", andController: "default")
     }
     

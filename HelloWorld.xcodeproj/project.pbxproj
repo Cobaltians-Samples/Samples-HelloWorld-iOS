@@ -14,7 +14,7 @@
 		71BD351D1DAE62DB0035D0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BD351B1DAE62DB0035D0AE /* LaunchScreen.storyboard */; };
 		F04CACEB2271DC2E000EEB69 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F04CACE82271DC1F000EEB69 /* libCobalt.a */; };
 		F04CAD072271E02F000EEB69 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F04CACEA2271DC1F000EEB69 /* Cobalt.bundle */; };
-		F04CAD0B2271E0D7000EEB69 /* common in Resources */ = {isa = PBXBuildFile; fileRef = F04CAD0A2271E0D6000EEB69 /* common */; };
+		F04CAD0D2271EBD8000EEB69 /* www in Resources */ = {isa = PBXBuildFile; fileRef = F04CAD0C2271EBD7000EEB69 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		71BD351C1DAE62DB0035D0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71BD351E1DAE62DB0035D0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F04CACE12271DC1F000EEB69 /* Cobalt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cobalt.xcodeproj; path = "Cobalt-iOS/Cobalt.xcodeproj"; sourceTree = "<group>"; };
-		F04CAD0A2271E0D6000EEB69 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = www/common; sourceTree = "<group>"; };
+		F04CAD0C2271EBD7000EEB69 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 		71BD35061DAE62DB0035D0AE = {
 			isa = PBXGroup;
 			children = (
-				71BD352B1DAE63E40035D0AE /* www */,
+				F04CAD0C2271EBD7000EEB69 /* www */,
 				71BD35111DAE62DB0035D0AE /* HelloWorld */,
 				71BD35101DAE62DB0035D0AE /* Products */,
 				F04CACDF2271DC17000EEB69 /* Frameworks */,
@@ -94,14 +94,6 @@
 				71BD351E1DAE62DB0035D0AE /* Info.plist */,
 			);
 			path = HelloWorld;
-			sourceTree = "<group>";
-		};
-		71BD352B1DAE63E40035D0AE /* www */ = {
-			isa = PBXGroup;
-			children = (
-				F04CAD0A2271E0D6000EEB69 /* common */,
-			);
-			name = www;
 			sourceTree = "<group>";
 		};
 		F04CACDF2271DC17000EEB69 /* Frameworks */ = {
@@ -207,10 +199,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F04CAD0B2271E0D7000EEB69 /* common in Resources */,
 				71BD351D1DAE62DB0035D0AE /* LaunchScreen.storyboard in Resources */,
 				71BD351A1DAE62DB0035D0AE /* Assets.xcassets in Resources */,
 				71BD35181DAE62DB0035D0AE /* Main.storyboard in Resources */,
+				F04CAD0D2271EBD8000EEB69 /* www in Resources */,
 				F04CAD072271E02F000EEB69 /* Cobalt.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
