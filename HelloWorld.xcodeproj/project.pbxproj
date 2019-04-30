@@ -11,10 +11,10 @@
 		71BD35181DAE62DB0035D0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BD35161DAE62DB0035D0AE /* Main.storyboard */; };
 		71BD351A1DAE62DB0035D0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BD35191DAE62DB0035D0AE /* Assets.xcassets */; };
 		71BD351D1DAE62DB0035D0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BD351B1DAE62DB0035D0AE /* LaunchScreen.storyboard */; };
+		BE62091022788EA800836BCA /* UnusedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE62090E2278895700836BCA /* UnusedViewController.swift */; };
 		F04CACEB2271DC2E000EEB69 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F04CACE82271DC1F000EEB69 /* libCobalt.a */; };
 		F04CAD072271E02F000EEB69 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F04CACEA2271DC1F000EEB69 /* Cobalt.bundle */; };
 		F04CAD0D2271EBD8000EEB69 /* www in Resources */ = {isa = PBXBuildFile; fileRef = F04CAD0C2271EBD7000EEB69 /* www */; };
-		F0551E102271FE1B007F202D /* MagicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0551E0F2271FE1B007F202D /* MagicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +48,9 @@
 		71BD35191DAE62DB0035D0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71BD351C1DAE62DB0035D0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71BD351E1DAE62DB0035D0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE62090E2278895700836BCA /* UnusedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnusedViewController.swift; sourceTree = "<group>"; };
 		F04CACE12271DC1F000EEB69 /* Cobalt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cobalt.xcodeproj; path = "Cobalt-iOS/Cobalt.xcodeproj"; sourceTree = "<group>"; };
 		F04CAD0C2271EBD7000EEB69 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
-		F0551E0F2271FE1B007F202D /* MagicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MagicViewController.swift; path = "../../Samples-HelloWorld-Web/MagicViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				71BD35121DAE62DB0035D0AE /* AppDelegate.swift */,
+				BE62090E2278895700836BCA /* UnusedViewController.swift */,
 				71BD35161DAE62DB0035D0AE /* Main.storyboard */,
 				71BD35191DAE62DB0035D0AE /* Assets.xcassets */,
 				71BD351B1DAE62DB0035D0AE /* LaunchScreen.storyboard */,
-				F0551E0F2271FE1B007F202D /* MagicViewController.swift */,
 				71BD351E1DAE62DB0035D0AE /* Info.plist */,
 			);
 			path = HelloWorld;
@@ -214,8 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0551E102271FE1B007F202D /* MagicViewController.swift in Sources */,
 				71BD35131DAE62DB0035D0AE /* AppDelegate.swift in Sources */,
+				BE62091022788EA800836BCA /* UnusedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
