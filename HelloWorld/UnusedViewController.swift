@@ -8,14 +8,10 @@
 
 import UIKit
 
-class ViewController: CobaltViewController {
+class UnusedViewController: CobaltViewController {
 
     required init?(coder: NSCoder) {
-        super.init(coder: coder)
-        
-        //On set le resourcePath de cobalt
-        Cobalt.setResourcePath((Bundle.main.resourcePath! + "/common/"))
-        initWithPage("index.html", andController: "default")
+        super.init(coder: coder)        
     }
     
     override func viewDidLoad() {

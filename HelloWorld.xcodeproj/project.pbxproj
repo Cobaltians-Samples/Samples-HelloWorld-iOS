@@ -8,28 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		71BD35131DAE62DB0035D0AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BD35121DAE62DB0035D0AE /* AppDelegate.swift */; };
-		71BD35151DAE62DB0035D0AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BD35141DAE62DB0035D0AE /* ViewController.swift */; };
 		71BD35181DAE62DB0035D0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BD35161DAE62DB0035D0AE /* Main.storyboard */; };
 		71BD351A1DAE62DB0035D0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BD35191DAE62DB0035D0AE /* Assets.xcassets */; };
 		71BD351D1DAE62DB0035D0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BD351B1DAE62DB0035D0AE /* LaunchScreen.storyboard */; };
-		71BD352E1DAE63F30035D0AE /* common in Resources */ = {isa = PBXBuildFile; fileRef = 71BD352C1DAE63F30035D0AE /* common */; };
-		BE1D224D1DAE68380001D232 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE1D224A1DAE68380001D232 /* Cobalt.bundle */; };
-		BE1D224E1DAE68380001D232 /* Cobalt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1D224B1DAE68380001D232 /* Cobalt.framework */; };
-		BE1D224F1DAE68380001D232 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE1D224C1DAE68380001D232 /* LICENSE */; };
+		BE62091022788EA800836BCA /* UnusedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE62090E2278895700836BCA /* UnusedViewController.swift */; };
+		F04CACEB2271DC2E000EEB69 /* libCobalt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F04CACE82271DC1F000EEB69 /* libCobalt.a */; };
+		F04CAD072271E02F000EEB69 /* Cobalt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F04CACEA2271DC1F000EEB69 /* Cobalt.bundle */; };
+		F04CAD0D2271EBD8000EEB69 /* www in Resources */ = {isa = PBXBuildFile; fileRef = F04CAD0C2271EBD7000EEB69 /* www */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F04CACE72271DC1F000EEB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04CACE12271DC1F000EEB69 /* Cobalt.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE31EB1B1C3EC52100141B6E;
+			remoteInfo = Cobalt;
+		};
+		F04CACE92271DC1F000EEB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04CACE12271DC1F000EEB69 /* Cobalt.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEFF884A1C4541FD0063AA18;
+			remoteInfo = CobaltResources;
+		};
+		F04CAD082271E06D000EEB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04CACE12271DC1F000EEB69 /* Cobalt.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEFF882F1C3ED3BC0063AA18;
+			remoteInfo = Framework;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		71BD350F1DAE62DB0035D0AE /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BD35121DAE62DB0035D0AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71BD35141DAE62DB0035D0AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71BD35171DAE62DB0035D0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71BD35191DAE62DB0035D0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71BD351C1DAE62DB0035D0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71BD351E1DAE62DB0035D0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71BD352C1DAE63F30035D0AE /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = www/common; sourceTree = "<group>"; };
-		BE1D224A1DAE68380001D232 /* Cobalt.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Cobalt.bundle; sourceTree = "<group>"; };
-		BE1D224B1DAE68380001D232 /* Cobalt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cobalt.framework; sourceTree = "<group>"; };
-		BE1D224C1DAE68380001D232 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE62090E2278895700836BCA /* UnusedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnusedViewController.swift; sourceTree = "<group>"; };
+		F04CACE12271DC1F000EEB69 /* Cobalt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cobalt.xcodeproj; path = "Cobalt-iOS/Cobalt.xcodeproj"; sourceTree = "<group>"; };
+		F04CAD0C2271EBD7000EEB69 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE1D224E1DAE68380001D232 /* Cobalt.framework in Frameworks */,
+				F04CACEB2271DC2E000EEB69 /* libCobalt.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,10 +68,10 @@
 		71BD35061DAE62DB0035D0AE = {
 			isa = PBXGroup;
 			children = (
-				71BD352B1DAE63E40035D0AE /* www */,
+				F04CAD0C2271EBD7000EEB69 /* www */,
 				71BD35111DAE62DB0035D0AE /* HelloWorld */,
-				BE1D22491DAE68380001D232 /* Cobalt */,
 				71BD35101DAE62DB0035D0AE /* Products */,
+				F04CACDF2271DC17000EEB69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				71BD35121DAE62DB0035D0AE /* AppDelegate.swift */,
-				71BD35141DAE62DB0035D0AE /* ViewController.swift */,
+				BE62090E2278895700836BCA /* UnusedViewController.swift */,
 				71BD35161DAE62DB0035D0AE /* Main.storyboard */,
 				71BD35191DAE62DB0035D0AE /* Assets.xcassets */,
 				71BD351B1DAE62DB0035D0AE /* LaunchScreen.storyboard */,
@@ -75,22 +96,21 @@
 			path = HelloWorld;
 			sourceTree = "<group>";
 		};
-		71BD352B1DAE63E40035D0AE /* www */ = {
+		F04CACDF2271DC17000EEB69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				71BD352C1DAE63F30035D0AE /* common */,
+				F04CACE12271DC1F000EEB69 /* Cobalt.xcodeproj */,
 			);
-			name = www;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE1D22491DAE68380001D232 /* Cobalt */ = {
+		F04CACE22271DC1F000EEB69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE1D224A1DAE68380001D232 /* Cobalt.bundle */,
-				BE1D224B1DAE68380001D232 /* Cobalt.framework */,
-				BE1D224C1DAE68380001D232 /* LICENSE */,
+				F04CACE82271DC1F000EEB69 /* libCobalt.a */,
+				F04CACEA2271DC1F000EEB69 /* Cobalt.bundle */,
 			);
-			path = Cobalt;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +127,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F04CAD092271E06D000EEB69 /* PBXTargetDependency */,
 			);
 			name = HelloWorld;
 			productName = HelloWorld;
@@ -135,12 +156,20 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 71BD35061DAE62DB0035D0AE;
 			productRefGroup = 71BD35101DAE62DB0035D0AE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F04CACE22271DC1F000EEB69 /* Products */;
+					ProjectRef = F04CACE12271DC1F000EEB69 /* Cobalt.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				71BD350E1DAE62DB0035D0AE /* HelloWorld */,
@@ -148,17 +177,33 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F04CACE82271DC1F000EEB69 /* libCobalt.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCobalt.a;
+			remoteRef = F04CACE72271DC1F000EEB69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F04CACEA2271DC1F000EEB69 /* Cobalt.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Cobalt.bundle;
+			remoteRef = F04CACE92271DC1F000EEB69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		71BD350D1DAE62DB0035D0AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				71BD351D1DAE62DB0035D0AE /* LaunchScreen.storyboard in Resources */,
-				71BD352E1DAE63F30035D0AE /* common in Resources */,
 				71BD351A1DAE62DB0035D0AE /* Assets.xcassets in Resources */,
-				BE1D224F1DAE68380001D232 /* LICENSE in Resources */,
 				71BD35181DAE62DB0035D0AE /* Main.storyboard in Resources */,
-				BE1D224D1DAE68380001D232 /* Cobalt.bundle in Resources */,
+				F04CAD0D2271EBD8000EEB69 /* www in Resources */,
+				F04CAD072271E02F000EEB69 /* Cobalt.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,12 +214,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71BD35151DAE62DB0035D0AE /* ViewController.swift in Sources */,
 				71BD35131DAE62DB0035D0AE /* AppDelegate.swift in Sources */,
+				BE62091022788EA800836BCA /* UnusedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F04CAD092271E06D000EEB69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Framework;
+			targetProxy = F04CAD082271E06D000EEB69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		71BD35161DAE62DB0035D0AE /* Main.storyboard */ = {
@@ -302,8 +355,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltians.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Cobalt/Cobalt.framework/Headers/Cobalt-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "Cobalt-iOS/Cobalt/Cobalt-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -320,8 +373,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltians.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Cobalt/Cobalt.framework/Headers/Cobalt-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "Cobalt-iOS/Cobalt/Cobalt-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
